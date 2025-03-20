@@ -1,0 +1,8 @@
+# Ignore Logstash ingestion-related files
+logstash/logstash_ingest_data/json/*
+logstash/csv
+logstash/logs
+
+# Ignore Env var
+.env
+
