@@ -1,5 +1,5 @@
 ## Overview
-This repository automates the process of converting CSV data to JSON format, flattening the JSON using Logstash, and indexing the flattened data into Elasticsearch. The project uses Docker Compose to manage the entire stack, which includes:
+This repository is an ETL pipeline which automates the collection, processing and loading of GDELT data using the Pyspark and the ELK Stack. It converts CSV data from the GDELT gkg repository to JSON format, flattening the JSON using Logstash, and indexing the flattened data into Elasticsearch. The project uses Docker Compose to manage the entire stack, which includes:
 
 - Python Script to convert CSV files into JSON using PySpark
 - Logstash to process and flatten the JSON data
